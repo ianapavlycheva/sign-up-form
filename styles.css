@@ -9,6 +9,10 @@ body {
   background-color: #f8f8f8;
 }
 
+.flex-container {
+  display: flex;
+}
+
 .left {
   width: 30%;
   position: relative;
