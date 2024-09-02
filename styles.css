@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 500px;
 }
 
 .background-img {
@@ -53,24 +54,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
+  font-size: 22px;
   background-color: rgba(10, 68, 84, 0.054);
   padding: 115px 50px;
   top: 300px;
 }
 
 .signup h2 {
-  margin: 0 0 10px;
+  margin: 20px 50px 10px;
   font-size: 24px;
 }
 
 .signup p {
-  margin: 10px 0;
+  margin: 20px 50px 10px;
   line-height: 1.5;
-}
-
-.signup h3 {
-  margin: 20px 0;
-  font-size: 20px;
 }
 
 .input-flex-container {
@@ -103,5 +101,5 @@ body {
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
-  margin: 30px 36px;
+  margin: 20px 50px 10px;
 }
