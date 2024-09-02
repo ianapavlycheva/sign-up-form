@@ -73,8 +73,23 @@ body {
   font-size: 20px;
 }
 
+.input-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex: 1 1 50%;
+  box-sizing: border-box;
+}
+
 .input-group input {
-  width: 48%;
+  width: 50%;
+  width: 68%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
