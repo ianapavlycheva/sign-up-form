@@ -93,6 +93,14 @@ body {
   border-radius: 4px;
 }
 
+input[type="password"]:invalid {
+  border: 2px solid red;
+}
+
+input:focus {
+  border: 2px solid blue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
 .create-account {
   background-color: rgb(10, 68, 84);
   color: white;
