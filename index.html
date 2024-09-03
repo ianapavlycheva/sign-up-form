@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="flex-container">
@@ -30,51 +36,45 @@
             You <em>know</em> you can’t resist.
           </p>
         </div>
-        <div>
-          <form class="signup">
-            <div class="shadow-box">
-              <h2>Let's do this!</h2>
-              <div class="input-flex-container">
-                <div class="input-group">
-                  <label for="fname">First name</label>
-                  <input type="text" id="fname" name="fname" required />
-                </div>
-                <div class="input-group">
-                  <label for="lname">Last name</label>
-                  <input type="text" id="lname" name="lname" required />
-                </div>
-                <div class="input-group">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
-                <div class="input-group">
-                  <label for="phone">Phone number</label>
-                  <input type="phone" id="phone" name="phone" required />
-                </div>
-                <div class="input-group">
-                  <label for="password">Password</label>
-                  <input
-                    type="password"
-                    id="password"
-                    name="password"
-                    required
-                  />
-                </div>
-                <div class="input-group">
-                  <label for="confirm-password">Confirm Password</label>
-                  <input
-                    type="password"
-                    id="confirm-password"
-                    name="conform-password"
-                    required
-                  />
-                </div>
+
+        <form class="signup">
+          <div class="shadow-box">
+            <h2>Let's do this!</h2>
+            <div class="input-flex-container">
+              <div class="input-group">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="fname" required />
+              </div>
+              <div class="input-group">
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" name="lname" required />
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="input-group">
+                <label for="phone">Phone number</label>
+                <input type="phone" id="phone" name="phone" required />
+              </div>
+              <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-password"
+                  required
+                />
               </div>
             </div>
-            <button type="submit" class="create-account">Create Account</button>
-            <p class="login">Already have an account? <a href="#">Log in</a></p>
-          </form>
-        </div>
+          </div>
+          <button type="submit" class="create-account">Create Account</button>
+          <p class="login">Already have an account? <a href="#">Log in</a></p>
+        </form>
       </div>
     </div>
     <script src="javascript.js"></script>

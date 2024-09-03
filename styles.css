@@ -6,12 +6,12 @@ body {
   justify-content: left;
   align-items: left;
   height: 100vh;
-  background-color: #f8f8f8;
+  background-color: rgba(10, 68, 84, 0.054);
 }
 
 .flex-container {
   display: flex;
-  max-width: 1800px;
+  /* max-width: 1800px; */
   margin: 0 auto;
 }
 
@@ -31,9 +31,11 @@ body {
 }
 
 .logo {
+  font-family: "Lora", serif;
   position: absolute;
-  top: 30%;
+  top: 350px;
   width: 100%;
+  min-width: 500px;
   color: white;
   display: flex;
   justify-content: center;
@@ -48,8 +50,8 @@ body {
 }
 
 .right {
-  box-sizing: border-box;
-  width: 70%;
+  min-width: 500px;
+  height: auto;
 }
 
 .info {
@@ -58,10 +60,8 @@ body {
   align-items: center;
   font-weight: 500;
   font-size: 22px;
-  background-color: rgba(10, 68, 84, 0.054);
   padding: 153px 50px;
-  height: auto;
-  min-width: 800px;
+  height: 200px;
 }
 
 .shadow-box {
@@ -101,6 +101,10 @@ body {
   border-radius: 4px;
 }
 
+label {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.67);
+}
 input[type="password"]:invalid {
   border: 2px solid red;
 }
